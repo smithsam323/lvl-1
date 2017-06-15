@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drum Kit</title>
+<!--  Semantic UI  -->
+    <link rel="stylesheet" href="css/semantic.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+<div class="main">
+    <h1>Donkey Kong</h1>
+
+    <!--Buttons-->
+
+    <div class="keys">
+        <button data-key="65" class="key ui button">
+          <kbd>A</kbd>
+          <span class="sound">complete</span>
+        </button>
+        
+        <button data-key="83" class="key ui button">
+          <kbd>S</kbd>
+          <span class="sound">hammer</span>
+        </button>
+        
+        <button data-key="68" class="key ui button">
+          <kbd>D</kbd>
+          <span class="sound">insert</span>
+        </button>
+        
+        <button data-key="70" class="key ui button">
+          <kbd>F</kbd>
+          <span class="sound">jump</span>
+        </button>
+        
+        <button data-key="71" class="key ui button">
+          <kbd>G</kbd>
+          <span class="sound">jump bar</span>
+        </button>
+        
+        <button data-key="72" class="key ui button">
+          <kbd>H</kbd>
+          <span class="sound">time</span>
+        </button>
+        
+        <button data-key="74" class="key ui button">
+          <kbd>J</kbd>
+          <span class="sound">turn on</span>
+        </button>
+        
+        <button data-key="75" class="key ui button">
+          <kbd>K</kbd>
+          <span class="sound">walking</span>
+        </button>
+        
+        <button data-key="76" class="key ui button">
+          <kbd>L</kbd>
+          <span class="sound">death</span>
+        </button>
+        
+      </div>
+      <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+<div class='backing'>
+
+</div>
+<header class='navigation'>
+  <nav>
+    <a href='#' class='navItem nav1'>
+      <div class='navWords'>
+        Highscores
+      </div>
+      <div class='clearIt'></div>
+    </a>
+
+    <a href='#' class='navItem nav2'>
+      <div class='navWords'>
+        Sam - 999999
+      </div>
+      <div class='clearIt'></div>
+    </a>
+
+    <a href='#' class='navItem nav3'>
+      <div class='navWords'>
+        Todd - 12399
+      </div>
+      <div class='clearIt'></div>
+    </a>
+
+    <a href='#' class='navItem nav4'>
+      <div class='navWords'>
+        Robert - 11110
+      </div>
+      <div class='clearIt'></div>
+    </a>
+
+    <a href='#' class='navItem nav5'>
+      <div class='navWords'>
+        Eddy - 1
+      </div>
+      <div class='clearIt'></div>
+    </a>
+  </nav>
+</header>
+<div class='clearIt'></div>
+
+</div>
+    
+<!--Audio to play-->
+  <audio data-key="65" src="sounds/complete.wav"></audio>
+  <audio data-key="83" src="sounds/hammer.wav"></audio>
+  <audio data-key="68" src="sounds/insert.wav"></audio>
+  <audio data-key="70" src="sounds/jump.wav"></audio>
+  <audio data-key="71" src="sounds/jumpbar.wav"></audio>
+  <audio data-key="72" src="sounds/time.wav"></audio>
+  <audio data-key="74" src="sounds/turnon.wav"></audio>
+  <audio data-key="75" src="sounds/walking.wav"></audio>
+  <audio data-key="76" src="sounds/death.wav"></audio>
+
+<!-- Scripts -->
+<!--jQeury-->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<!--Semantic UI-->
+<script src="js/semantic.js"></script>
+<!--Our scripts-->
+<script src="js/scripts.js"></script>
+</body>
+</html>
